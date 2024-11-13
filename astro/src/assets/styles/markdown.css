@@ -1,0 +1,77 @@
+/*.md img {*/
+/*    @apply w-full rounded-xl object-cover*/
+/*}*/
+
+.md h1,
+.md h2,
+.md h3,
+.md h4,
+.md h5,
+.md h6 {
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 1em 0 0.5em;
+}
+
+.md h1 {
+    font-size: 2em;
+}
+
+.md h2 {
+    font-size: 1.5em;
+}
+
+.md h3 {
+    font-size: 1.25em;
+}
+
+.md h4 {
+    font-size: 1em;
+}
+
+.md h5 {
+    font-size: 0.875em;
+}
+
+.md h6 {
+    font-size: 0.75em;
+}
+
+.md p {
+    margin: 0 0 1em;
+}
+
+.md ul,
+.md ol {
+    list-style-type: disc;
+    margin: 0 0 1em 0;
+    padding: 0 0 0 2em;
+}
+
+.md li {
+    margin: 0.5em 0;
+}
+
+.md img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    @apply w-full rounded-xl object-cover
+}
+
+/*.md h1 {*/
+/*    @apply text-3xl font-bold text-orange-600;*/
+/*}*/
+
+/*.md p {*/
+/*    @apply text-gray-800 leading-relaxed;*/
+/*}*/
+
+/*.md strong {*/
+/*    color: red;*/
+/*    @apply text-gray-800 leading-relaxed;*/
+/*}*/
+
+/*.md a {*/
+/*    @apply text-orange-500 hover:underline;*/
+/*}*/
