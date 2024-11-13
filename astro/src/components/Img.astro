@@ -1,0 +1,47 @@
+---
+import { Image } from "astro:assets";
+import { getImage } from 'astro:assets';
+
+export interface Props {
+    src: string;
+    alt: string;
+}
+
+const { src, alt } = Astro.props;
+
+// console.log("CustomImage!!!!", src, alt);
+// const imageUrl = `${import.meta.env.BASE_URL}${src}`;
+
+// const resolvedImage = await getImage({ src: imageUrl });
+
+---
+
+<Image
+    class="w-full rounded-xl object-cover"
+    src={src}
+    alt={alt}
+    <!--height="50px"-->
+    <!--width="50px"-->
+    draggable={"false"}
+/>
+
+
+<!--export interface Props {-->
+<!--    src: string;-->
+<!--    alt: string;-->
+<!--    }-->
+
+<!--const CustomImage = ({ src, alt }: Props) => {-->
+<!--    console.log("CustomImage!!!!", src, alt);-->
+<!--    return (-->
+<!--        <Image-->
+<!--                class="w-full rounded-xl object-cover"-->
+<!--                src={src}-->
+<!--                alt={alt}-->
+<!--                draggable={"false"}-->
+<!--                format={"avif"}-->
+<!--        />-->
+<!--    );-->
+<!--};-->
+
+<!--export default CustomImage;-->

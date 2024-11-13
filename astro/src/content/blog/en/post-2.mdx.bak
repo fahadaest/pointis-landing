@@ -1,0 +1,33 @@
+---
+title: "Post 2."
+description: "Notes, Timeline, Similar Items, Context Drawer and Themes."
+author: "Jose"
+authorImage: "@/images/blog/brad.avif"
+authorImageAlt: "Pointis logo"
+pubDate: 2024-08-14
+#cardImage: "@/images/blog/r4-hero.png"
+cardImage: "@/images/blog/r4-hero.png"
+cardImageAlt: "Pointis 4.0 interface screenshot"
+readTime: 5
+tags: ["update", "productivity", "notes", "timeline"]
+contents: ["![Pointis 4.0 interface](/@/images/blog/r4-navigation.gif)"]
+---
+import Img from '@/components/Img.astro';
+
+[//]: # (import releaseImage from '@/images/blog/r4-hero.png';)
+
+[//]: # (import releaseNavigation from '@/images/blog/r4-navigation.gif';)
+
+**Zzzzzzzzzz!**
+
+import releaseNavigation from '@/images/blog/r4-navigation.gif';
+
+[//]: # (![Pointis 4.0 interface]&#40;/images/blog/r4-navigation.gif&#41;)
+
+[//]: # (![Pointis 4.0 interface]&#40;/@/images/before-after.avif&#41;)
+
+[//]: # (<CustomImage src="@/images/blog/release-4.png" alt="Alt text" />)
+<Img src={releaseNavigation} alt="Alt text" />
+
+[//]: # (@components/CustomImage.astro src={releaseNavigation} alt="Alt text")
+

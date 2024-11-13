@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    padding: 20px;
+}
+
+.heroImage {
+    max-height: 25vh;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    filter: grayscale(0.7);
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    color: #233e61;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #233e61;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.errorMessage {
+    color: #ff0000;
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 1.5em;
+    }
+    .description, .input, .button, .message {
+        font-size: 12px;
+    }
+}
